@@ -21,19 +21,5 @@ public class Main {
         System.out.println("Swapped        : " + normalDesc.getTotalSwaped());
         System.out.println("Execution Time : " + normalDesc.getExecutionTime(false) + " Nano Second");
         System.out.println("===========================");
-
-        // Auto ascending
-        System.out.println("Auto Ascending");
-        MagicSort autoAsc = magicSort.autoAsc();
-        System.out.println("Result         : " + Arrays.toString(autoAsc.getResult()));
-        System.out.println("Swapped        : " + autoAsc.getTotalSwaped());
-        System.out.println("Execution Time : " + autoAsc.getExecutionTime(false) + " Nano Second");
-        System.out.println("===========================");
-
-        // Auto ascending
-        System.out.println("Auto Descending");
-        MagicSort autoDesc = magicSort.autoDesc();
-        System.out.println("Result         : " + Arrays.toString(autoDesc.getResult()));
-        System.out.println("Swapped        : " + autoDesc.getTotalSwaped());
-        System.out.println("Execution Time : " + autoDesc.getExecutionTime(false) + " Nano Second");
-        System.out.println("===========================");
+    }
+}
